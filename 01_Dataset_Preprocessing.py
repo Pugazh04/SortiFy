@@ -5,7 +5,7 @@ import shutil
 splitsize= .85
 categories= []
 
-source_folder= "D:/Garbage/garbage_classification"
+source_folder= "<add your path to dataset folder>"
 folders= os.listdir(source_folder)
 print(folders)
 
@@ -16,7 +16,7 @@ for subfolder in folders:
 categories.sort()
 print(categories)
 
-target_folder= "D:/Garbage/dataset_for_model"
+target_folder= "<add your path to processed dataset folder>"
 existDatasetPath= os.path.exists(target_folder)
 if existDatasetPath==False:
     os.mkdir(target_folder)
