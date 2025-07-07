@@ -12,7 +12,7 @@ An Automated Waste Segregation System using IoT and AI
 8. IR sensor 
 9. Ultrasonic Sensor (HC-SR04) 
 10. Power bank
-11. 3D model
+11. 3D model (Check Design Dimension.pdf)
 
 # Steps :
 1. Train an image classification model and convert it to onnx format for easy deployment.
