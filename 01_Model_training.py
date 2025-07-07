@@ -4,8 +4,8 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.layers import Dense, GlobalAveragePooling2D
 from tensorflow.keras.optimizers import Adam
 
-train_path= "D:/Garbage/dataset_for_model/train"
-validate_path= "D:/Garbage/dataset_for_model/validate"
+train_path= "<add your path to train dataset>"
+validate_path= "<add your path to validate dataset>"
 trainGenerator= ImageDataGenerator(preprocessing_function= preprocess_input).flow_from_directory(train_path, target_size= (224, 224), batch_size= 30)
 validGenerator= ImageDataGenerator(preprocessing_function= preprocess_input).flow_from_directory(validate_path, target_size= (224, 224), batch_size= 30)
 
@@ -31,5 +31,5 @@ model.compile(loss="categorical_crossentropy", optimizer= optimizer, metrics= ['
 
 model.fit(trainGenerator, validation_data= validGenerator, epochs= epochs)
 
-path_for_saved_model= "D:/Garbage/dataset_for_model/GarbageV2.h5"
+path_for_saved_model= "<add your path to save model>"
 model.save(path_for_saved_model)
