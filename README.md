@@ -12,8 +12,11 @@ An Automated Waste Segregation System using IoT and AI
 8. IR sensor 
 9. Ultrasonic Sensor (HC-SR04) 
 10. Power bank
+11. 3D model
 
 # Steps :
 1. Train an image classification model and convert it to onnx format for easy deployment.
 2. Upload the esp32.ino file in ESP32 microcontroller and make the necessary connections.
 3. Upload the remaining files in the Raspberry pi 4B and run main.py after making the necessary connections.
+
+Note : Files are numbered in accordance to the steps for easy implementation.
