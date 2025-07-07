@@ -1,0 +1,7 @@
+automobile wastes
+battery waste
+glass waste
+metal waste
+organic waste
+paper waste
+plastic waste
