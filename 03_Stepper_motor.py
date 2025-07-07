@@ -17,7 +17,6 @@ GPIO.setup(MS1, GPIO.OUT)
 GPIO.setup(MS2, GPIO.OUT)
 GPIO.setup(MS3, GPIO.OUT)
 
-# Enable 1/16 microstepping for higher precision
 GPIO.output(MS1, GPIO.HIGH)
 GPIO.output(MS2, GPIO.HIGH)
 GPIO.output(MS3, GPIO.HIGH)
